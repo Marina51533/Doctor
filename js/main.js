@@ -18,3 +18,14 @@ $(document).ready(function() {
 
     });
 });
+
+new WOW().init();
+
+/*jQuery(window).load(function() {
+    jQuery('#status').fadeOut();
+    jQuery('#preloader').delay(500).fadeOut('slow');
+    setTimeout(function() {
+        new WOW().init();
+    }, 1000);
+}
+})*/
