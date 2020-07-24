@@ -27,7 +27,7 @@
                     </a>
                     <div class='header_burger'><span></span></div>
                     <nav class='header_menu'>
-                        <ul class="header_list">
+                        <ul id='ul' class="header_list">
                             <li>
                                 <a href="#sluzby" class="header_link">Naše služby</a>
                             </li>
@@ -37,14 +37,12 @@
                             <li>
                                 <a href="#team" class="header_link">Náš tým</a>
                             </li>
-
-
                             <li>
                                 <a href="#cena" class="header_link">Cena</a>
                             </li>
 
                             <li>
-                                <a href="" class="header_link">Kontakty</a>
+                                <a href="#contacts" class="header_link">Kontakty</a>
                             </li>
                         </ul>
                     </nav>
@@ -65,7 +63,7 @@
                         <p class='text_item'>The best!</p><img src='img/pregnant.jpg'></div>
                 </div>
             </div>
-            <content class='content2 '>
+            <div class='content2 '>
                 <h2 id='sluzby'>Naše služby</h2>
                 <div class='first_blocks wow animate__animated animate__fadeInUp animate__delay-2s'>
                     <div class='block_content2'>
@@ -97,7 +95,7 @@
                             infarkt myokardu nebo cévní mozková příhoda.</p>
                     </div>
                 </div>
-            </content>
+            </div>
             <div id='documents' class='content3'>
                 <div class='img_content3 wow animate__animated animate__fadeInRight animate__delay-2s'><img src='img/8.jpg'></div>
                 <div class='content3_text  wow animate__animated animate__fadeInLeft animate__delay-4s'>
@@ -148,10 +146,16 @@
             </div>
 
     </div>
-    <div class='contacts'>
+    <div id='contacts' class='contacts'>
         <h2>Kontakty</h2>
-        <div></div>
-        <address></address>
+        <div class='telefon'>
+            <p><span>Adresa: </span>Poliklinika Kartouzská, Kartouzská 204/6, Smíchov,<br> 150 00 Praha 5</p>
+            <p><span>Otevírací doba:</span> Po-pa 8.00-16.30</p>
+            <p><span>Telefon: </span>223-332-554</p>
+        </div>
+        <div id="map_canvas"></div>
+
+
     </div>
     </main>
     </div>
@@ -169,7 +173,7 @@
 
 
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src='js/le.js'></script>
 
@@ -180,6 +184,9 @@
     <script src='js/owl.carousel.min.js'></script>
     <script src='js/main.js'></script>
     <!---GGGG-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0oqEGoM2HRWIHVe - rEAqGouGP9Aeu234&callback=initMap">
+    </script>
+
 </body>
 
 </html>

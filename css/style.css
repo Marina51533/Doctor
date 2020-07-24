@@ -79,6 +79,11 @@ body {
     font-weight: 700;
 }
 
+.visit {
+    color: rgb(192, 255, 195);
+    font-weight: 700;
+}
+
 .header_link {
     color: black;
     text-transform: uppercase;
@@ -294,4 +299,29 @@ h2 {
 .content5 img {
     height: 450px;
     width: 350px;
+}
+
+
+/*---------Contacts--------*/
+
+.telefon {
+    border: 1px solid grey;
+    padding: 25px;
+    width: fit-content;
+    margin-left: 7vw;
+    margin-bottom: 20vh;
+}
+
+.telefon p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.telefon span {
+    font-weight: 900;
+}
+
+#map_canvas {
+    height: 90vh;
+    width: 100vw;
 }
