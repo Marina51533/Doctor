@@ -34,6 +34,8 @@ new WOW().init();
 }
 })*/
 
+
+/*----map----*/
 function initMap() {
     var pos = {
         lat: 50.023999,
